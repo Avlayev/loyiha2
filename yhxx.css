@@ -1,0 +1,72 @@
+nav {
+    width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+ .menu {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 150px;
+    display: inline-block;
+    font-size: 15px;
+
+ }
+ .icon{
+    padding-left: 40px;
+    margin-left: 15px;
+    float: right;
+    color: yellow;
+ }
+
+
+ul {
+    list-style-type: none;
+}
+ul, li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+i{
+    margin-left: 10px;
+}
+a{
+    color: white;
+}
+
+
+
+.oyna1 {
+    background-color: rgba(0, 0, 0, 0.524);
+    background-size: cover;
+
+}
+.text1 {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    color: white;
+    font-weight:900;
+
+}
+.topsection {
+    position: relative;
+    overflow: visible;
+    height: 750px;
+    box-sizing: border-box;
+}
+.topsection video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+button{
+    width: 180px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid rgba(255, 255, 0, 0.471);   
+    border-radius: 20px;
+}
